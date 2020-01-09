@@ -1,0 +1,19 @@
+{
+  "address": "127.0.0.1",
+  "port": 8125,
+  "basePath": "/api",
+  "componentsDir": "./../components",
+  "defaultComponent": "index",
+  "defaultAction": "index",
+  "modulesDir": "./../modules",
+  "modelsDir": "./../models",
+  "fixturesDir": "./../fixtures",  
+  "defaults": {
+    "response": {
+      "statusCode": 200,
+      "headers": {
+        "Content-Type": "application/json"
+      }
+    }
+  }
+}

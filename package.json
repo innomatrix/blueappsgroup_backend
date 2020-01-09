@@ -1,0 +1,33 @@
+{
+  "name": "plain",
+  "version": "1.0.0",
+  "description": "",
+  "main": ".src/index.js",
+  "scripts": {
+    "test": "test",
+    "lint": "eslint ./src --fix",
+    "dev": "esm src/index.js --inspect",
+    "debug": "nodemon -r esm --inspect ./src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/innomtrix/blueappsdevtask.git"
+  },
+  "author": "innomatrix",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/innomtrix/blueappsdevtask/issues"
+  },
+  "homepage": "https://github.com/innomtrix/blueappsdevtask#readme",
+  "dependencies": {
+    "esm": "^3.2.25",
+    "events": "^3.0.0",
+    "sqlite3": "^4.1.1",
+    "url": "^0.11.0",
+    "util": "^0.12.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "nodemon": "^2.0.2"
+  }
+}
